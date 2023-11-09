@@ -1,2 +1,41 @@
 # user_directory_A
-A simple web application built using Python and the Streamlit module. The app displays a list of users fetched from an API and allows the addition of new users to the list.
+
+A simple web application that displays a list of users fetched from an API and allows the addition of new users to the list.
+
+
+## Pre-requisites
+
+Ensure that Python 3 is installed by running the following command from the terminal.
+```shell
+  C:\> python --version
+```
+If the command is not found, install any Python 3 version from the [official website](https://www.python.org/downloads/).
+## Run Locally
+
+Clone the project
+
+```shell
+  C:\> git clone https://github.com/dulocian/user_directory_A
+```
+
+Navigate to the project directory
+
+```shell
+  C:\> cd user_directory_A
+```
+
+Activate the Python virtual environment in Windows command prompt (not PowerShell)
+
+```shell
+  C:\user_directory_A> venv\Scripts\activate.bat
+```
+
+Run the app.py script
+
+```shell
+  (venv) C:\user_directory_A> Streamlit run app.py
+```
+
+Interact with the Streamlit app by visiting the localhost link provided in the command prompt.
+
+
