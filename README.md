@@ -24,18 +24,16 @@ Navigate to the project directory
   C:\> cd user_directory_A
 ```
 
-Activate the Python virtual environment in Windows command prompt (not PowerShell)
+Install the dependencies from the requirements file
 
 ```shell
-  C:\user_directory_A> venv\Scripts\activate.bat
+  C:\user_directory_A> pip install -r requirements.txt
 ```
 
 Run the app.py script
 
 ```shell
-  (venv) C:\user_directory_A> Streamlit run app.py
+  C:\user_directory_A> Streamlit run app.py
 ```
 
 Interact with the Streamlit app by visiting the localhost link provided in the command prompt.
-
-
