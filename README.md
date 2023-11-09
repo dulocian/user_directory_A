@@ -5,7 +5,7 @@ A simple web application that displays a list of users fetched from an API and a
 
 ## Pre-requisites
 
-Ensure that Python 3 is installed by running the following command from the terminal.
+Ensure that Python 3.9 or above is installed by running the following command from the terminal.
 ```shell
 python --version
 ```
