@@ -7,7 +7,7 @@ A simple web application that displays a list of users fetched from an API and a
 
 Ensure that Python 3 is installed by running the following command from the terminal.
 ```shell
-  C:\> python --version
+python --version
 ```
 If the command is not found, install any Python 3 version from the [official website](https://www.python.org/downloads/).
 ## Run Locally
