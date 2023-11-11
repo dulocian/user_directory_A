@@ -150,7 +150,7 @@ if selected == tab_2:
             # Validation: email
             # Validation relies on built-in Python module
             if not validators.email(input_email):
-                st.warning("The e-mail address is invalid")
+                st.warning("Enter a valid e-mail address.")
                 valid_input = False
 
             # Only add new user to dataframe if all input fields are valid 
@@ -160,6 +160,7 @@ if selected == tab_2:
                     st.session_state['df_user_directory'].loc[len(st.session_state['df_user_directory'])] = new_user
                     
                     st.success("New user added", icon="✔")
+                    # clear_form()  # cannot clear form: command raises error
                 except ValueError:
                     st.error("Failed to add new user", icon="✖")
                     
